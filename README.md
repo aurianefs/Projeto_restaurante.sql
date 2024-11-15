@@ -1,7 +1,7 @@
 # Projeto_restaurante.sql
---CREATE DATABASE Restaurante_Bom_Gosto;
+--CREATE DATABASE Restaurante_Sem_Nome;
 --GO
---USE Restaurante_Bom_Gosto;
+--USE Restaurante_Sem_Nome;
 ----------------------------------------------
 --CREATE TABLE Cargo (Cd_Cargo    INT           IDENTITY  PRIMARY KEY,
 --					  Descricao   VARCHAR(30)   NOT NULL);
@@ -88,16 +88,16 @@
 --INSERT INTO Funcionario (Cd_Cargo,Nome,Logradouro, Numero,Complemento,CEP,Bairro,Cidade,Estado,Telefone,Email)
 --				 VALUES (2, 'Jo o Alfredo Neto',         'Rua Joaquim Capixaba',          '177',  NULL,                  '55800-000',  'Cascata',           'Recife',               'PE', '(81)99345-2577',  'joaoalfredo177@gmail.com'),
 --						(1, 'Maria Francisca Silvana',   'Rua Tabeli o Francisco Peixoto','102',  'Casa',                '55800-000',  'COHAB',             'Recife',               'PE', '(81)98467-2813',  'mariafrancisca102@gmail.com'),
---						(4, 'J lia Ferreira de Barros',  'Rua Rosa e Silva',              '69',   'Casa',                '54700-321',  'Boa Vista',         'Recife',               'PE', '(81)98612-6378',  'juliaferreira35@outlook.com'),
+--						(4, 'Julia Ferreira de Barros',  'Rua Rosa e Silva',              '69',   'Casa',                '54700-321',  'Boa Vista',         'Recife',               'PE', '(81)98612-6378',  'juliaferreira35@outlook.com'),
 --						(4, 'Maria de Fatima Bernadetes','Rua Palha Queimada',            '67',   NULL,                  '51158-821',  'Abreu e Lima',      'Paulista',             'PE', '(81)93437-6577',  'mfb.oficial@gmail.com'),
 --						(5, 'Zeferino Barbosa de Souza', 'Rua Serra Talhada',             '104',  'Quadra 73 - Bloco 04','52678-510',  'Arthur Lundgren II','Paulista',             'PE', '(81)99877-6542',  'severinoDelas101@gmail.com'), 
 --						(2, 'Frederico Jos  da Slva ',   'Rua Jo o de Barro',             '130',  'Casa',                '54759-195',  'Brasilandia',       'Recife',               'PE', '(81)99741-8972',  'frederico@gmail.com'),
---                      (3, 'Jo o da Silva Neves ',      'Rua Antonio da Silva',          '158',  'Apartamento',         '54759-165',  'Brasilandia',       'Recife',               'PE', '(81)99741-8973',  'joaodasilva123@gmail.com'),
+--                      (3, 'João da Silva Neves ',      'Rua Antonio da Silva',          '158',  'Apartamento',         '54759-165',  'Brasilandia',       'Recife',               'PE', '(81)99741-8973',  'joaodasilva123@gmail.com'),
 --						(3, 'Allana Martins Silva',      'Rua Bezerros',                  '75',   NULL,                  '54735-570',  'Centro' ,           'S o Louren o da Mata', 'PE', '(81)99468-1221',  'allanasilva@hotmail.com'),
---						(6, 'Rodrigo Lisboa Melo',       'Rua Rog rio Guedes',            '98',   'Apartamento',         '56898-000',  'Liberdade',         'Recife',               'PE', '(81)98642-9982',  'rodrigomelzinho@outlook.com'),
---						(5, 'J lia Mariana Lisboa',      'Rua Palha Queimada',            '72',   NULL,                  '54800-000',  'Matadouro',         'Moreno',               'PE', '(81)99766-3242',  'juliamarianalinda12@gmail.com'),
+--						(6, 'Rodrigo Lisboa Melo',       'Rua Rogrigo Guedes',            '98',   'Apartamento',         '56898-000',  'Liberdade',         'Recife',               'PE', '(81)98642-9982',  'rodrigomelzinho@outlook.com'),
+--						(5, 'Julia Mariana Lisboa',      'Rua Palha Queimada',            '72',   NULL,                  '54800-000',  'Matadouro',         'Moreno',               'PE', '(81)99766-3242',  'juliamarianalinda12@gmail.com'),
 --						(2, 'Jorge Henrique Lopes',      'Rua Salvador Dali',             '115A', 'Casa',                '54753-590',  'Santo Amaro',       'Recife',               'PE', '(81)98782-1880',  'jorginhoda12@gmail.com'),
---						(6, 'Mariana Lima Mariano',      'Rua Silvano Ciprano',           '15B',  'Casa',                '57800-00',   'Nacional',          'S o Louren o da Mata', 'PE', '(81)97654-2341',  'marianalima1212@gmail.com');
+--						(6, 'Mariana Lima Mariano',      'Rua Silvano Ciprano',           '15B',  'Casa',                '57800-00',   'Nacional',          'São Lourenço da Mata', 'PE', '(81)97654-2341',  'marianalima1212@gmail.com');
 ------------------------------------------------------------------------------------------------ 
 --INSERT INTO Conta (Matricula,Hora_Abertura,Data_Abertura,Hora_Fechamento,Data_Fechamento) 
 --		   VALUES (1005, '16:26:30', '16/05/2020', '17:50:27', '16/05/2020'),
@@ -139,21 +139,21 @@
 --				VALUES ('Pizza de Calabresa - Grande',             38.00),
 --				       ('Pizza de Quatro Queijos - Grande',        36.00),
 --					   ('Pizza de Portuguesa - Pequena',           16.00),
---					   ('Pizza de Calabresa - M dia',              29.00),
+--					   ('Pizza de Calabresa - Média',              29.00),
 --					   ('Coca-Cola - 2L',                          12.00),
 --					   ('Coca-Cola - Lata',                        4.00),
---					   (' gua - Garrafa',                          3.00),											  
+--					   ('Água - Garrafa',                          3.00),											  
 --					   ('Pure de Batata Cremoso - 300g ',          11.00),
 --					   ('Lasanha - Prato Pequeno',                 25.00),
 --					   ('Feijoada - Executivo',                    15.00),
 --					   ('Caldo de Piranha - Executivo',            18.00),
---					   ('Del cia de Abacaxi - 300ml',              7.00),
+--					   ('Delícia de Abacaxi - 300ml',              7.00),
 --					   ('Sorvete 500ml',                           8.00), 											  
 --					   ('Galeto -  Completo',					   24.00 ),
 --					   ('Carne de Sol - Completa',                 78.00),
---					   ('Fil    Parmegiana - Completo',			   24.50 ),								
+--					   ('Filé á Parmegiana - Completo',			   24.50 ),								
 --					   ('Strogonoff de Frango - Completo',         15.00),				  							
---					   ('Frango   Milanesa - Completo',            20.00),
+--					   ('Frango á Milanesa - Completo',            20.00),
 --					   ('Carne com legumes chop suey - Executivo', 33.50),
 --					   ('Frango xadrez - Executivo',               34.50);
 ------------------------------------------------------------------------------------------------
@@ -185,12 +185,12 @@
 --						      (7, 5,  12.00, 1);
 ------------------------------------------------------------------------------------------------
 --INSERT INTO Produto(Descricao,Estoque_Minimo,Estoque_Atual,Preco_Custo)
---			VALUES ('Feij o Preto',35,27,4.20),
+--			VALUES ('Feijão Preto',35,27,4.20),
 --				   ('Coca-Cola -2L',15,16,8.00),
---				   (' gua - Garrafa',17,14,1.00),
+--				   ('Água - Garrafa',17,14,1.00),
 --				   ('Sorvete Napolitano',3,4,50.00),
 --				   ('Coca-Cola - Lata',20,21,2.20),
---				   ('Macarr o', 5 , 90, 5.90),
+--				   ('Macarrão', 5 , 90, 5.90),
 --				   ('Presunto', 3 , 6 , 10.20),
 --				   ('Caldo de Piranha',12,17,13.00),
 --				   ('Milho - Lata',14,22,2.00),
@@ -204,8 +204,8 @@
 --				   ('Catupiry', 32,36, 9.28),
 --				   ('Batata',27,32,5.55),
 --				   ('Delicia de Abacaxi',2,2,75.50),
---				   ('Carv o - Saco',6,7,5.55),
---				   ('Feij o',42,45,5.20),
+--				   ('Carvão - Saco',6,7,5.55),
+--				   ('Feijão',42,45,5.20),
 --				   ('Ervilha - Lata',26,28,3.25),
 --				   ('Cenoura',15,16,4.50),
 --				   ('Cheedar',13,14,12.00),
@@ -265,7 +265,7 @@
 	--							 (15,30,1,3.25),
 	--							 (15,31,1,4.00);
 ------------------------------------------------------------------------------------------------
------------------------------------PROGRAMA  O--------------------------------------------------
+-----------------------------------PROGRAMAÇÃO--------------------------------------------------
 ------------------------------------------------------------------------------------------------
 --Desenvolva um trigger capaz de deduzir do estoque_atual dos produtos, a quantidade referente ao prato que foi solicitado
 
@@ -282,7 +282,7 @@
 --END
 
 ------------------------------------------------------------------------------------------------
---Desenvolva um stored procedure capaz de listar a descri  o e a quantidade para compra dos produtos que necessitam de reabastecimento, 
+--Desenvolva um stored procedure capaz de listar a descrição e a quantidade para compra dos produtos que necessitam de reabastecimento, 
 --ou seja, Estoque_Atual <= Estoque_Minimo.
 
 --CREATE PROCEDURE Estoque_em_Falta 
@@ -310,7 +310,7 @@
 
 --MostrarContas
 ------------------------------------------------------------------------------------------------
---Desenvolva um stored procedure que reajuste o pre o do item do card pio a partir da passagem dos par metros Nr_Cardapio e percentual de reajuste
+--Desenvolva um stored procedure que reajuste o preço do item do cardápio a partir da passagem dos parâmetros Nr_Cardapio e percentual de reajuste
 
 --CREATE PROCEDURE Alterar_ValorCardapio
 --    @Nr_Cardapio INT, @Reajuste DECIMAL(4,2),@Op CHAR(1)
@@ -330,15 +330,15 @@
 --			SELECT * FROM CARDAPIO;
 --		END
 --    ELSE
---		PRINT 'A op  o digitada n o corresponde a nenhuma op  o de Reajuste !'
+--		PRINT 'A op  o digitada não corresponde a nenhuma op  o de Reajuste !'
 --END
 --ELSE
---    PRINT 'N mero de card pio n o encontrado !!'
+--    PRINT 'Número do cardápio não encontrado !!'
 
 --Alterar_ValorCardapio 1, 0.5, '-'
 
 ------------------------------------------------------------------------------------------------
---Desenvolva uma fun  o que, ao informar o Nr_Cardapio, apresente sua descri  o e pre o de custo
+--Desenvolva uma fun  o que, ao informar o Nr_Cardapio, apresente sua descrição e preço de custo
 
 --CREATE FUNCTION ConsultarCardapio(@Nr_Cardapio INT)	
 --	RETURNS TABLE	
@@ -353,7 +353,7 @@
 --------------------------------------------------------------------------------------------------------------
 ---------------------------------------CONSULTAS-------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------
---Consulta capaz de listar cada item do card pio com os respectivos ingredientes ( produtos ) e quantidades.
+--Consulta capaz de listar cada item do cardápio com os respectivos ingredientes ( produtos ) e quantidades.
 
 --SELECT Cardapio.Descricao AS 'Card pio', Produto.Descricao AS 'Ingrediente', Cardapio_Produto.Quantidade
 --FROM Cardapio
@@ -361,16 +361,16 @@
 --INNER JOIN Produto ON Produto.Cd_Produto = Cardapio_Produto.Cd_Produto
 
 --------------------------------------------------------------------------------------------------------------
---Consulta capaz de listar todos os funcion rios (em ordem alfab tica) com suas matr culas e seus respectivos cargos 
+--Consulta capaz de listar todos os funcionários (em ordem alfabética) com suas matrículas e seus respectivos cargos 
 
 --SELECT Funcionario.Matricula AS 'Matr cula', Funcionario.Nome, Cargo.Descricao AS 'Cargo' FROM Funcionario
 --INNER JOIN Cargo ON Funcionario.Cd_Cargo = Cargo.Cd_Cargo
 --ORDER BY Funcionario.Nome ASC
 
 --------------------------------------------------------------------------------------------------------------
---Consulta capaz de listar os gar ons com seu respectivo cargo, c digo do cargo, matr cula, nome e o total de contas abertas
+--Consulta capaz de listar os garçons com seu respectivo cargo, código do cargo, matrícula, nome e o total de contas abertas
 
---SELECT Funcionario.Cd_Cargo AS 'C digo do Cargo', Cargo.Descricao AS 'Cargo', Funcionario.Matricula AS 'Matr cula',
+--SELECT Funcionario.Cd_Cargo AS 'C digo do Cargo', Cargo.Descricao AS 'Cargo', Funcionario.Matricula AS 'Matrícula',
 --       Funcionario.Nome AS 'Funcion rio', COUNT(Conta.Nr_Conta) AS 'Total de Contas Abertas'
 --FROM Cargo
 --INNER JOIN Funcionario ON Cargo.Cd_Cargo = Funcionario.Cd_Cargo
@@ -380,8 +380,8 @@
 --ORDER BY COUNT(Conta.Nr_Conta) DESC
 
 --------------------------------------------------------------------------------------------------------------
---Consulta capaz de listar as mesas que abriram conta com seus respectivos n mero da mesa, localiza  o, n mero da conta, hora de abertura,
---hora de fechamento, data de abertura e data de fechamento (mesmo as que n o foram fechadas ainda)
+--Consulta capaz de listar as mesas que abriram conta com seus respectivos número da mesa, localização, número da conta, hora de abertura,
+--hora de fechamento, data de abertura e data de fechamento (mesmo as que não foram fechadas ainda)
 
 --SELECT Mesa.Nr_Mesa AS 'N mero da Mesa', Mesa.Localizacao AS 'Localiza  o (Interna ou Externa)', Conta.Nr_Conta AS 'N mero da Conta' ,Conta.Hora_Abertura AS 'Hora de Abertura', 
 --	   Conta.Hora_Fechamento AS 'Hora de Fechamento', Conta.Data_Abertura AS 'Data de Abertura', Conta.Data_Fechamento AS 'Data de Fechamento'
@@ -390,26 +390,26 @@
 --INNER JOIN Conta ON Conta.Nr_Conta = Conta_Mesa.Nr_Conta
 
 --------------------------------------------------------------------------------------------------------------
---Consulta capaz de listar as contas que foram pagas pelo cart o com seus respectivos n mero da conta, data de fechamento, hora de fechamento, 
---o n mero do pagamento e o titular do cart o 
+--Consulta capaz de listar as contas que foram pagas pelo cartão com seus respectivos número da conta, data de fechamento, hora de fechamento, 
+--o número do pagamento e o titular do cartão 
 
---SELECT Conta.Nr_Conta AS 'N mero da Conta', Conta.Data_Fechamento AS 'Data de Fechamento', Conta.Hora_Fechamento AS 'Hora de Fechamento', Pagamento.Nr_Pagamento AS 'N mero do Pagamento', 
---Cartao.Nome AS 'Titular do Cart o'
+--SELECT Conta.Nr_Conta AS 'Número da Conta', Conta.Data_Fechamento AS 'Data de Fechamento', Conta.Hora_Fechamento AS 'Hora de Fechamento', Pagamento.Nr_Pagamento AS 'N mero do Pagamento', 
+--Cartao.Nome AS 'Titular do Cartão'
 --FROM Conta
 --INNER JOIN Pagamento ON Conta.Nr_Conta = Pagamento.Nr_Conta
 --INNER JOIN Cartao ON Cartao.Nr_Pagamento = Pagamento.Nr_Pagamento
 
 --------------------------------------------------------------------------------------------------------------
---Consulta capaz de listar as contas que foram pagas pelo cheque com seus respectivos n mero da conta, data de fechamento, hora de fechamento,
---o n mero do pagamento, banco, ag ncia e o n mero de cheque
+--Consulta capaz de listar as contas que foram pagas pelo cheque com seus respectivos número da conta, data de fechamento, hora de fechamento,
+--o número do pagamento, banco, agência e o número de cheque
 
---SELECT Conta.Nr_Conta AS 'N mero da Conta', Conta.Data_Fechamento AS 'Data de Fechamento', Conta.Hora_Fechamento AS 'Hora de Fechamento', Pagamento.Nr_Pagamento AS 'N mero do Pagamento', 
---       Cheque.Banco, Cheque.Agencia AS 'Ag ncia', Cheque.Nr_Cheque AS 'N mero do Cheque'
+--SELECT Conta.Nr_Conta AS 'Número da Conta', Conta.Data_Fechamento AS 'Data de Fechamento', Conta.Hora_Fechamento AS 'Hora de Fechamento', Pagamento.Nr_Pagamento AS 'Número do Pagamento', 
+--       Cheque.Banco, Cheque.Agencia AS 'Agência', Cheque.Nr_Cheque AS 'Número do Cheque'
 --FROM Conta
 --INNER JOIN Pagamento ON Conta.Nr_Conta = Pagamento.Nr_Conta
 --INNER JOIN Cheque ON Cheque.Nr_Pagamento = Pagamento.Nr_Pagamento
 --------------------------------------------------------------------------------------------------------------
---Consulta capaz de listar quais contas est o fechadas e quais funcion rios que a abriram
+--Consulta capaz de listar quais contas estão fechadas e quais funcionários que a abriram
 
 --SELECT Funcionario.Matricula, Conta.Nr_Conta, Funcionario.Nome FROM Funcionario
 --INNER JOIN Conta ON Conta.Matricula = Funcionario.Matricula
